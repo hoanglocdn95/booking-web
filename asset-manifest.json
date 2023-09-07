@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/booking-web/static/css/main.048b924e.css",
+    "main.js": "/booking-web/static/js/main.0f3a5c6a.js",
+    "index.html": "/booking-web/index.html",
+    "main.048b924e.css.map": "/booking-web/static/css/main.048b924e.css.map",
+    "main.0f3a5c6a.js.map": "/booking-web/static/js/main.0f3a5c6a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.048b924e.css",
+    "static/js/main.0f3a5c6a.js"
+  ]
+}
