@@ -1,0 +1,123 @@
+.header {
+  background-color: #003580;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  &__container {
+    margin: 20px 0 100px;
+    max-width: 1024px;
+    width: 100%;
+
+    &--title {
+    }
+
+    &--desc {
+      margin: 20px 0;
+    }
+
+    &--btn {
+      background-color: #0071c2;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      font-weight: 500;
+      padding: 10px;
+    }
+
+    &--search {
+      align-items: center;
+      background-color: #fff;
+      border: 3px solid #febb02;
+      border-radius: 5px;
+      bottom: -25px;
+      display: flex;
+      height: 30px;
+      justify-content: space-around;
+      max-width: 1024px;
+      padding: 10px 0;
+      position: absolute;
+      width: 100%;
+
+      .search__item {
+        display: flex;
+        align-items: center;
+        color: #d3d3d3;
+
+        &--icon {
+          margin-right: 10px;
+        }
+
+        &--input {
+          border: none;
+          outline: none;
+          color: gray;
+        }
+
+        &--date {
+          position: absolute;
+          background-color: #fff;
+          top: 53px;
+          z-index: 2;
+          box-shadow: 0px 10px 20px 5px #dadada;
+        }
+
+        &--option {
+          position: absolute;
+          background-color: #fff;
+
+          top: 53px;
+          z-index: 2;
+          box-shadow: 0px 10px 20px 5px #dadada;
+          border-radius: 5px;
+
+          .option__item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+            width: 200px;
+
+            &--text {
+              color: gray;
+            }
+
+            &--amount {
+              align-items: center;
+              color: #000;
+              display: flex;
+              font-size: 12px;
+
+              .btn-amount {
+                background-color: #fff;
+                border: 1px solid #0071c2;
+                color: #0071c2;
+                cursor: pointer;
+                height: 30px;
+                width: 30px;
+
+                &:disabled {
+                  cursor: not-allowed;
+                }
+              }
+
+              .amount {
+                padding: 0 10px;
+              }
+            }
+          }
+        }
+
+        .btn-submit {
+          background-color: #0071c2;
+          border: none;
+          color: #fff;
+          cursor: pointer;
+          font-weight: 500;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

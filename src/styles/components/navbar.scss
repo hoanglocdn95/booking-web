@@ -1,0 +1,52 @@
+.nav-container {
+  background-color: #003580;
+  padding: 20px;
+
+  .top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      color: #fff;
+    }
+
+    &-button {
+      a {
+        padding: 10px;
+        color: blue;
+        background-color: #fff;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .navbar {
+    display: flex;
+    margin-top: 40px;
+
+    .nav-item {
+      margin-right: 20px;
+      padding: 20px 10px;
+
+      &.active {
+        border: 1px solid #fff;
+        border-radius: 30px;
+      }
+
+      a {
+        display: flex;
+
+        svg {
+          margin-right: 10px;
+        }
+
+        h3 {
+          color: #fff;
+          font-weight: 300;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+}

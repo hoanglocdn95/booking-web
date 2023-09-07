@@ -1,0 +1,134 @@
+.homeBody {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+
+  .city__container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    max-width: 1024px;
+    width: 100%;
+    z-index: 1;
+
+    &--item {
+      border-radius: 10px;
+      color: #fff;
+      overflow: hidden;
+      position: relative;
+
+      .img {
+        height: 250px;
+        object-fit: cover;
+        width: 330px;
+      }
+
+      .title {
+        bottom: 20px;
+        left: 20px;
+        position: absolute;
+      }
+    }
+  }
+
+  .hoteltype__container {
+    max-width: 1024px;
+    width: 100%;
+
+    &--title {
+      margin-bottom: 20px;
+    }
+
+    &--box {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+
+      .type__container {
+        cursor: pointer;
+
+        &--img {
+          height: 150px;
+          object-fit: cover;
+          width: 170px;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px;
+        }
+
+        &--text {
+          h1 {
+            padding-top: 10px;
+            color: #444;
+            font-size: 18px;
+          }
+
+          h2 {
+            padding-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+
+  .hotel__favorite {
+    max-width: 1024px;
+    width: 100%;
+
+    &--title {
+      margin-bottom: 20px;
+    }
+
+    &--box {
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+    }
+  }
+
+  .form {
+    align-items: center;
+    background-color: #003580;
+    color: #fff;
+
+    margin-top: 50px;
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+
+    .form__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      &--title {
+        font-size: 32px;
+      }
+
+      form {
+        input {
+          border: none;
+          border-radius: 5px;
+          height: 30px;
+          margin-right: 10px;
+          padding: 10px;
+          width: 300px;
+        }
+
+        button {
+          background-color: #0071c2;
+          border: none;
+          border-radius: 5px;
+          color: #fff;
+          cursor: pointer;
+          font-weight: 500;
+          height: 50px;
+        }
+      }
+    }
+  }
+}

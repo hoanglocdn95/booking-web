@@ -1,0 +1,14 @@
+@import "./reset.scss";
+@import "./components/navbar.scss";
+@import "./components/header.scss";
+@import "./components/footer.scss";
+@import "./components/favoriteItem.scss";
+@import "./components/searchListItem.scss";
+@import "./components/searchpopup.scss";
+@import "./page/home.scss";
+@import "./page/search.scss";
+@import "./page/detail.scss";
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}

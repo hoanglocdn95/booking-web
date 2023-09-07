@@ -1,0 +1,36 @@
+.favorite__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  &--img {
+    height: 250px;
+    object-fit: cover;
+    width: 240px;
+  }
+
+  a {
+    color: #be0f9e;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+
+  &--price {
+    font-weight: 700;
+  }
+
+  &--rating {
+    button {
+      background-color: #003580;
+      border: none;
+      color: #fff;
+      font-weight: 700;
+      margin-right: 10px;
+      padding: 3px;
+    }
+
+    span {
+      font-size: 14px;
+    }
+  }
+}
